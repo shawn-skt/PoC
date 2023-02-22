@@ -1,0 +1,560 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/shall/hardhat/webank-ys/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1675907718156,
+      "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">= 0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/Users/shall/hardhat/webank-ys/contracts/carbonfrugal_evidence/Address.sol": {
+      "lastModificationDate": 1677028494590,
+      "contentHash": "b961bf2dbe66880fec7391259119ac54",
+      "sourceName": "contracts/carbonfrugal_evidence/Address.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.24"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/shall/hardhat/webank-ys/contracts/carbonfrugal_evidence/CarbonFrugalEvidence.sol": {
+      "lastModificationDate": 1677029007081,
+      "contentHash": "6ad1250b00aa7e8159b03b042cdbde8a",
+      "sourceName": "contracts/carbonfrugal_evidence/CarbonFrugalEvidence.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SafeMath.sol",
+        "./AuthUsersRepository.sol",
+        "./Address.sol",
+        "./ECDSA.sol",
+        "./EvidencesRepository.sol",
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.24"
+      ],
+      "artifacts": [
+        "AuthService",
+        "CarbonFrugalEvidence"
+      ]
+    },
+    "/Users/shall/hardhat/webank-ys/contracts/carbonfrugal_evidence/AuthUsersRepository.sol": {
+      "lastModificationDate": 1677028494754,
+      "contentHash": "a991cf7cc261671dbd866df2bd0e9f84",
+      "sourceName": "contracts/carbonfrugal_evidence/AuthUsersRepository.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.24"
+      ],
+      "artifacts": [
+        "AuthUsersRepository"
+      ]
+    },
+    "/Users/shall/hardhat/webank-ys/contracts/carbonfrugal_evidence/SafeMath.sol": {
+      "lastModificationDate": 1677028494881,
+      "contentHash": "b94fa36f4117f4b07f4f2713557df2b5",
+      "sourceName": "contracts/carbonfrugal_evidence/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.24"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/shall/hardhat/webank-ys/contracts/carbonfrugal_evidence/ECDSA.sol": {
+      "lastModificationDate": 1677028494840,
+      "contentHash": "56d74730686d9f776d6dc7ff687b7806",
+      "sourceName": "contracts/carbonfrugal_evidence/ECDSA.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.24"
+      ],
+      "artifacts": [
+        "ECDSA"
+      ]
+    },
+    "/Users/shall/hardhat/webank-ys/contracts/carbonfrugal_evidence/EvidencesRepository.sol": {
+      "lastModificationDate": 1677028494849,
+      "contentHash": "4bd6e8f7b68dd25cd5b2cec94afc3c66",
+      "sourceName": "contracts/carbonfrugal_evidence/EvidencesRepository.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.24"
+      ],
+      "artifacts": [
+        "EvidencesRepository"
+      ]
+    },
+    "/Users/shall/hardhat/webank-ys/contracts/marriage_evidence/Evidence.sol": {
+      "lastModificationDate": 1677047340855,
+      "contentHash": "4a7c97fb9e0b1e0f27f5fe42e4e45744",
+      "sourceName": "contracts/marriage_evidence/Evidence.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.25"
+      ],
+      "artifacts": [
+        "Evidence",
+        "EvidenceSignersDataABI"
+      ]
+    },
+    "/Users/shall/hardhat/webank-ys/contracts/marriage_evidence/EvidenceFactory.sol": {
+      "lastModificationDate": 1677028431862,
+      "contentHash": "259b23c6f08242cdcf1204dd8cd04c81",
+      "sourceName": "contracts/marriage_evidence/EvidenceFactory.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Evidence.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.25"
+      ],
+      "artifacts": [
+        "EvidenceFactory"
+      ]
+    },
+    "/Users/shall/hardhat/webank-ys/contracts/marriage_evidence/MarriageEvidence.sol": {
+      "lastModificationDate": 1677029405405,
+      "contentHash": "beeba1d413c6cb8cf78ac4170e37da28",
+      "sourceName": "contracts/marriage_evidence/MarriageEvidence.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./EvidenceFactory.sol",
+        "./Character.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.25"
+      ],
+      "artifacts": [
+        "MarriageEvidence"
+      ]
+    },
+    "/Users/shall/hardhat/webank-ys/contracts/marriage_evidence/Character.sol": {
+      "lastModificationDate": 1677028431701,
+      "contentHash": "6cdd86b7f5305b81ce104befd0c562c5",
+      "sourceName": "contracts/marriage_evidence/Character.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Roles.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.25"
+      ],
+      "artifacts": [
+        "Character"
+      ]
+    },
+    "/Users/shall/hardhat/webank-ys/contracts/marriage_evidence/Roles.sol": {
+      "lastModificationDate": 1677028431893,
+      "contentHash": "0623ba978494e01e775d6eda19a3bc45",
+      "sourceName": "contracts/marriage_evidence/Roles.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.25"
+      ],
+      "artifacts": [
+        "Roles"
+      ]
+    },
+    "/Users/shall/hardhat/webank-ys/contracts/marriage_evidence/Attacker2.sol": {
+      "lastModificationDate": 1677029426187,
+      "contentHash": "77bb99ae357bc6abed56872f047099e3",
+      "sourceName": "contracts/marriage_evidence/Attacker2.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol",
+        "./Evidence.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.24"
+      ],
+      "artifacts": [
+        "Attacker2",
+        "IEvidence"
+      ]
+    },
+    "/Users/shall/hardhat/webank-ys/contracts/evidence_contract/EvidenceContract.sol": {
+      "lastModificationDate": 1677028579932,
+      "contentHash": "fbfa5fe8c4f71134e2ff5644ef8013c5",
+      "sourceName": "contracts/evidence_contract/EvidenceContract.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.25"
+      ],
+      "artifacts": [
+        "EvidenceContract"
+      ]
+    },
+    "/Users/shall/hardhat/webank-ys/contracts/carbonfrugal_evidence/Attacker.sol": {
+      "lastModificationDate": 1677029190112,
+      "contentHash": "b08d7f5d5dd9dd623765e6068c2e31cc",
+      "sourceName": "contracts/carbonfrugal_evidence/Attacker.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol",
+        "./CarbonFrugalEvidence.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.24"
+      ],
+      "artifacts": [
+        "Attacker",
+        "IEvidence"
+      ]
+    }
+  }
+}
